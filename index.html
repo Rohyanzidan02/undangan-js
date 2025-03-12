@@ -28,7 +28,7 @@
     <section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white">
         <main>
             <h4>Kepada Bapak/Ibu/Saudara/1</h4>
-            <h1>Kris Ananda & Neng Restiani </h1>
+            <h1>Kris Ananda & Neng Restiani  </h1>
             <p>Akan melangsungkan resepsi pernikahan dalam:</p>
             <div class="simply-countdown"></div>
             <a href="#undangan" class="btn btn-lg mt-4" >Lihat undangan </a>
@@ -36,8 +36,7 @@
     </section>
 
 <!-- navbar  -->
-<!-- Navbar -->
-<nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
+<nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar" >
   <div class="container">
     <a class="navbar-brand" href="#">Kris & Restiani</a>
     <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -205,19 +204,21 @@
 
     <!-- layar -->
 
-    <script>
+     <script>
+      const hamburger = document.querySelector('.Navbar-tpggler');
       const stickyTop = document.querySelector('.sticky-top');
-      const offcanvas = document.querySelector('.offcanvas');
-  
+      const offcanvas = document.querySelector('.offcanvas')
+
       offcanvas.addEventListener('show.bs.offcanvas', function () {
-        stickyTop.style.overflow = 'visible';
+          stickyTop.style.overflow = 'visible';
       });
-  
+
+      
       offcanvas.addEventListener('hidden.bs.offcanvas', function () {
-        stickyTop.style.overflow = 'hidden';
+          stickyTop.style.overflow = 'hidden';
       });
-  
-    </script>
+
+     </script>
 
   </body>
 </html>
