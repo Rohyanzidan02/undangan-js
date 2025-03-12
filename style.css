@@ -221,6 +221,10 @@ body {
        text-align: center;
     }
 
+    .stiky-top {
+        overflow: hidden;
+    }
+
 
 }
 
