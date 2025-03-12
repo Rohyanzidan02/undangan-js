@@ -36,7 +36,8 @@
     </section>
 
 <!-- navbar  -->
-<nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar" >
+<!-- Navbar -->
+<nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
   <div class="container">
     <a class="navbar-brand" href="#">Kris & Restiani</a>
     <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -204,21 +205,19 @@
 
     <!-- layar -->
 
-     <script>
-      const hamburger = document.querySelector('.Navbar-tpggler');
+    <script>
       const stickyTop = document.querySelector('.sticky-top');
-      const offcanvas = document.querySelector('.offcanvas')
-
+      const offcanvas = document.querySelector('.offcanvas');
+  
       offcanvas.addEventListener('show.bs.offcanvas', function () {
-          stickyTop.style.overflow = 'visible';
+        stickyTop.style.overflow = 'visible';
       });
-
-      
+  
       offcanvas.addEventListener('hidden.bs.offcanvas', function () {
-          stickyTop.style.overflow = 'hidden';
+        stickyTop.style.overflow = 'hidden';
       });
-
-     </script>
+  
+    </script>
 
   </body>
 </html>
