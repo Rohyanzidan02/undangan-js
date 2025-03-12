@@ -243,3 +243,88 @@ body {
 
     
 }
+
+
+
+/* 2 coba */
+/* mead query responsive */
+/* Extra Large  */
+@media (max-width: 1200px) {
+    .home .heart {
+        transform: translateX(-50%) translateY(45px);
+    }
+}
+
+/* Laptop */
+@media (max-width: 992px) {
+    html {
+        font-size: 75%;
+    }
+    .simply-countdown > .simply-section {
+        padding: 70px;
+    }
+    .home .heart {
+        display: none;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    html {
+        font-size: 65%;
+    }
+
+    .simply-countdown > .simply-section {
+        padding: 70px;
+        margin: 5px;
+    }
+
+    .mynavbar .nav-link {
+        font-size: 1.5rem; /* Sesuaikan ukuran font */
+        text-align: center;
+    }
+
+    .navbar {
+        padding: 10px; /* Tambahkan padding untuk navbar */
+    }
+
+    .hero h1 {
+        font-size: 3rem; /* Sesuaikan ukuran font untuk hero */
+    }
+
+    .hero h4 {
+        font-size: 1.4rem; /* Sesuaikan ukuran font untuk hero */
+    }
+
+    .hero p {
+        font-size: 1.2rem; /* Sesuaikan ukuran font untuk hero */
+    }
+}
+
+/* Phone */
+@media (max-width: 576px) {
+    html {
+        font-size: 60%;
+    }
+
+    .simply-countdown > .simply-section {
+        padding: 20px;
+        margin: 3px;
+    }
+
+    .mynavbar .nav-link {
+        font-size: 1.2rem; /* Ukuran font lebih kecil untuk ponsel */
+    }
+
+    .hero h1 {
+        font-size: 2.5rem; /* Ukuran font lebih kecil untuk ponsel */
+    }
+
+    .hero h4 {
+        font-size: 1.2rem; /* Ukuran font lebih kecil untuk ponsel */
+    }
+
+    .hero p {
+        font-size: 1rem; /* Ukuran font lebih kecil untuk ponsel */
+    }
+}
